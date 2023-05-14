@@ -1,0 +1,75 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 offset-md-2 col-sm-10 offset-sm-1 mt-5">
+      <div class="input-group mb-2">
+        <input type="text" id="pantalla" class="form-control" readonly [(ngModel)]="pantalla">
+      </div>
+      <div class="col row linea1">
+        <div class="col-4">
+          <button (click)="botonPresionado('R')" class="red">R</button>
+        </div>
+        <div class="col-4">
+          <button (click)="botonPresionado('CE')" class="red">CE</button>
+        </div>
+        <div class="col-4">
+          <button (click)="accionPresionado('C')" class="red">C</button>
+        </div>
+      </div>
+      <div class="row margen">
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('7')">7</button>
+        </td>
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('8')">8</button>
+        </td>
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('9')">9</button>
+        </td>
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('/')" class="red">/</button>
+        </td>
+      </div>
+      <div class="row margen">
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('4')">4</button>
+        </td>
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('5')">5</button>
+        </td>
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('6')">6</button>
+        </td>
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('*')" class="red">*</button>
+        </td>
+      </div>
+      <div class="row margen">
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('1')">1</button>
+        </td>
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('2')">2</button>
+        </td>
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('3')">3</button>
+        </td>
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('-')" class="red">-</button>
+        </td>
+      </div>
+      <div class="row margen">
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('0')">0</button>
+        </td>
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado(',')">,</button>
+        </td>
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('+')" class="red">+</button>
+        </td>
+        <td class="col-3 linea1">
+          <button (click)="botonPresionado('=')" class="red">=</button>
+        </td>
+      </div>
+    </div>
+  </div>
